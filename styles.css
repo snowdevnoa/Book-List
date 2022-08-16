@@ -1,7 +1,34 @@
-tr#table-head {
-  min-width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body {
+  font-family: 'Aboreto', cursive;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(226, 60, 60);
+}
+
+input[type='submit'] {
+  margin-top: 1rem;
+  width: 5rem;
+  color: white;
+  background-color: rgb(115, 105, 173);
+  border: 0.5px solid rgb(115, 105, 173);
+  border-radius: 10px;
+}
+
+table,
+label {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(3) {
+  text-align: center;
+}
+/* Classes */
 .flex {
   display: flex;
 }
@@ -18,9 +45,9 @@ tr#table-head {
 }
 
 .success {
-  background-color: green;
+  background-color: rgba(55, 174, 55, 0.674);
 }
 
 .error {
-  background-color: red;
+  background-color: rgba(190, 50, 50, 0.899);
 }
